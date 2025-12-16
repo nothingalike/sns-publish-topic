@@ -21,7 +21,7 @@ outputs:
   messageID:
     description: "The AWS SNS Message ID"
 runs:
-  using: "node12"
+  using: "node16"
   main: "src/index.js"
 branding:
   color: "orange"
